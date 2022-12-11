@@ -4,8 +4,7 @@
         Sexo: dato de tipo caracter
         Altura en metros: dato de tipo real
     
-    Tras leer los datos, el programa debe mostrarlos en la salida estándar
-*/
+    Tras leer los datos, el programa debe mostrarlos en la salida estándar*/
 
 #include <iostream>
 
