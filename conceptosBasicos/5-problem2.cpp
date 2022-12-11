@@ -1,4 +1,4 @@
-/*Escribe un programa que lea de la entrada estándar el precio de un producto y muestre en la salida estándar el precio del producto al
+/*2 Escribe un programa que lea de la entrada estándar el precio de un producto y muestre en la salida estándar el precio del producto al
 aplicarle el IVA*/
 
 #include <iostream>
