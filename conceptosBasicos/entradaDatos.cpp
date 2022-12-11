@@ -10,7 +10,7 @@ int main()
 
     cout<<"Ingrese un numero entero: ";
     cin>>n1; //con cint>> se asigna el valor ingresado en la variable
-    cout<<"El numero que ingreso es el: "<<n1<<endl; /*para imprimir el numero se usan los dos signos de menor << y luego el nombre 
+    cout<<"El numero que ingreso es el: "<<n1<<endl; /*para imprimir el numero se usan los dos signos de menor que << y luego el nombre 
                                                      de la variable*/
     
     cout<<"\nIngrese un numero con punto decimal: ";
