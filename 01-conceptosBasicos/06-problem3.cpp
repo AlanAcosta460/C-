@@ -15,7 +15,7 @@ int main()
     int edad;
     char sexo;
     float altura;
-
+    
     cout << "Ingrese su edad: "; cin >> edad;
     cout << "Ingrese su sexualidad h/m: "; cin >> sexo;
     cout << "Ingrese su altura en metros: "; cin >> altura;
