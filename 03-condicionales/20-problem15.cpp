@@ -1,4 +1,4 @@
-//15. Escriba un programa que lea 3 números y determine cual de ellos es mayor
+//15. Escriba un programa que lea 3 números y determine cual de ellos es mayor 
 #include <iostream>
 
 using namespace std;
