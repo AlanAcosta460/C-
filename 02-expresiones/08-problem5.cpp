@@ -16,5 +16,5 @@ int main()
     cout.precision(3);
     cout << "\nEl resultado es: " << resultado << endl;
 
-    return 0;
+    return 0; 
 }
