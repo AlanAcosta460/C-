@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     float precio;
-
+    
     cout << "Ingrese el precio del producto: $"; cin >> precio;
     cout << "\nEl IVA aplicable es del 16%" << endl;
     cout << "El precio del prudcto mas el IVA es: $" << precio * 1.16 << endl;
