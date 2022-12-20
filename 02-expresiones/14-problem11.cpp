@@ -1,4 +1,5 @@
-//11. Escrba un programa que lea de la entrada estándar los dos catetos de un triangulo y escriba en la salida estándar su hipotenusa
+/*11. Escrba un programa que lea de la entrada estándar los dos catetos 
+de un triangulo y escriba en la salida estándar su hipotenusa*/
 #include <iostream>
 #include <math.h>
 
