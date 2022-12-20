@@ -15,7 +15,7 @@ int main()
     /*para redondear un numero decimal se usa cout.precision(n), donde n es la cantidad de cifras que toma para redondear 
     pero solo mostrando n - 1 cifras en pantalla*/
     cout.precision(3); 
-    cout << "\nEl resultado es: " << resultado << endl;
+    cout << "\nEl resultado es: " << resultado << endl;   
     
     return 0;
 }
