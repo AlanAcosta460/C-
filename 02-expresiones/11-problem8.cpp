@@ -12,7 +12,7 @@ int main()
 
     temporal = a;
     a = b; 
-    b = temporal;
+    b = temporal; 
 
     cout << "\na ahora vale: " << a << endl;
     cout << "b ahora vale: " << b << endl;
