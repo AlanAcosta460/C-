@@ -21,21 +21,22 @@ int main()
 
     cout << "Se genero un numero aleatorio" << endl;
     cout << "\nIngrese un numero entre 1 y 100 para adivinarlo:" << endl;
+
     do
     {
+        cout << endl;
         cout << "- "; cin >> numeroUsuario;
         intentos ++;
         if (numeroUsuario == numeroRandom)
             cout << "Adivino el numero!!!" << endl;
         
         if (numeroUsuario < numeroRandom)
-            cout << "El numero es menor al aleatorio" << endl;
+            cout << "Escribe un numero mayor" << endl;
         else
         {
             if (numeroUsuario > numeroRandom)
-                cout << "EL numero es mayor al aleatorio" << endl;
+                cout << "Escribe un numero menor" << endl;
         }
-        cout << endl;
     } while (numeroUsuario != numeroRandom);
 
     cout << "Cantidad de intentos para adivinar el numero: " << intentos << endl << endl;
