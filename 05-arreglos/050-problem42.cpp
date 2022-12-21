@@ -3,7 +3,7 @@
 Inicialización de un vector  
 int numero[] = {1, 4, 6, 7, 3};
 numero[0] = 1;
-numero[1] = 4;
+numero[1] = 4; 
 numero[2] = 6;
 numero[3] = 7;
 numero[4] = 3;
