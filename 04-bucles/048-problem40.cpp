@@ -24,18 +24,17 @@ int main()
 
     do
     {
-        cout << endl;
         cout << "- "; cin >> numeroUsuario;
         intentos ++;
         if (numeroUsuario == numeroRandom)
-            cout << "Adivino el numero!!!" << endl;
+            cout << "\nAdivino el numero!!!" << endl;
         
         if (numeroUsuario < numeroRandom)
-            cout << "Escribe un numero mayor" << endl;
+            cout << "\nEscribe un numero mayor" << endl;
         else
         {
             if (numeroUsuario > numeroRandom)
-                cout << "Escribe un numero menor" << endl;
+                cout << "\nEscribe un numero menor" << endl;
         }
     } while (numeroUsuario != numeroRandom);
 
