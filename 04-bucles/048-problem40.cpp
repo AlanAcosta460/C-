@@ -4,7 +4,7 @@ e indicarle al usuario si el numero que digito es menor o mayor al numero aleato
 asi hasta que lo adivine. y por ultimo mostrarle el numero de intentos que le llevo
 
 Generar un numero aleatorio dentro de un rango: 
-variable = limiteInferior + rand() % (LimiteSuperior + 1 - limiteInferior);
+    variable = limiteInferior + rand() % (LimiteSuperior + 1 - limiteInferior);
 */
 
 #include <iostream>
