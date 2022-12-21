@@ -20,7 +20,10 @@ int main()
 {
     int tamano;
 
-    cout << "Ingrese el tamano del vector: "; cin >> tamano;
+    do
+    {
+        cout << "Ingrese el tamano del vector: "; cin >> tamano;
+    } while (tamano <= 0);
     cout << endl;
 
     int numeros[tamano], suma;
