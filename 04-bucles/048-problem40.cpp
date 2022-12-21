@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-    int numeroUsuario, numeroRandom, intentos;
+    int numeroUsuario, numeroRandom, intentos = 0;
 
     srand(time(0));
     numeroRandom = 1 + (rand() % 100);
