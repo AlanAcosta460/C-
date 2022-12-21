@@ -1,4 +1,4 @@
-//33. Escriba un programa que calcule el valor de: 1 * 2 * 3 ... * n (factorial de un número)
+//34. Escriba un programa que calcule el valor de: 1 * 2 * 3 ... * n (factorial de un número)
 
 #include <iostream>
 using namespace std;
