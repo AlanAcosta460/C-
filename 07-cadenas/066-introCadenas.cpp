@@ -29,10 +29,7 @@ int main()
     cin.getline(variable para almacenar, espacio total, cuando debe terminar de guardar)
     */
     cout << nombre2 << endl;
-
-
     
-
     cout << endl;
     system("pause");
     return 0;
