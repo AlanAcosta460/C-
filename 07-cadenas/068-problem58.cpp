@@ -16,7 +16,6 @@ int main()
     else
         cout << "\nLa cadena es menor a 10 caracteres" << endl;
 
-    system("cls");
     cout << endl; system("pause");
     return 0;
 }
