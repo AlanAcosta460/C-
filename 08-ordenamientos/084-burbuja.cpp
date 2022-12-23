@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    int numeros[] = {4, 5, 2, 3, 1}, i, j, aux;
+    int numeros[] = {4, 5, 2, 3, 1}, i, j, auxiliar;
 
     //i < elementosDelArreglo;
     for (i = 0; i < 5; i ++)
@@ -22,12 +22,12 @@ int main()
             //if (numeroActual > numeroSiguiente)
             if (numeros[j] > numeros[j + 1])
             {
-                //aux = numeroActual
-                aux = numeros[j];
+                //auxiliar = numeroActual
+                auxiliar = numeros[j];
                 //numeroActual = numeroSiguiente
                 numeros[j] = numeros [j + 1];
                 //numeroSiguiente = numeroActual
-                numeros[j + 1] = aux;
+                numeros[j + 1] = auxiliar;
             }
         }
     }
@@ -39,9 +39,9 @@ int main()
         {
             if (arreglo[j] > arreglo[j + 1])
             {
-                aux = arreglo[j];
+                auxiliar = arreglo[j];
                 arreglo[j] = arreglo [j + 1];
-                arreglo[j + 1] = aux;
+                arreglo[j + 1] = auxiliar;
             }
         }
     }
