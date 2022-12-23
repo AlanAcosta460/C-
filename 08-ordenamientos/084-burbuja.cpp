@@ -55,7 +55,6 @@ int main()
     for (i = 4; i >= 0; i --)
         cout << numeros[i] << "\t";
 
-
-    cout << endl <<endl; system("pause");
+    cout << endl << endl; system("pause");
     return 0;
 }
