@@ -109,7 +109,7 @@ int main()
 /*Algoritmo sin comentarios:
 void intercambio(float &x, float &y)
 {
-    int aux;
+    void aux;
     aux = x;
     x = y;
     y = aux;
