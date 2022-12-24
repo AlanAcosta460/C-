@@ -20,7 +20,7 @@ using namespace std;
 //función para intercambiar elementos de posicion
 void intercambio(float &x, float &y)
 {
-    int aux;
+    float aux;
     aux = x;
     x = y;
     y = aux;
