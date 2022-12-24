@@ -75,8 +75,9 @@ int main()
     }
     j = 0;
 
-    cout << "\n\nArreglo ordenado - Forma Acendente" << endl;
     ordenacionShell(arreglo, numeroElementos);
+
+    cout << "\n\nArreglo ordenado - Forma Acendente" << endl;
     for (i = 0; i < numeroElementos; i ++)
     {
         cout << arreglo[i] << "\t";
@@ -90,7 +91,6 @@ int main()
     j = 0;
 
     cout << "\n\nArreglo ordenado - Forma Descendente" << endl;
-    ordenacionShell(arreglo, numeroElementos);
     for (i = numeroElementos - 1; i >= 0; i --)
     {
         cout << arreglo[i] << "\t";
