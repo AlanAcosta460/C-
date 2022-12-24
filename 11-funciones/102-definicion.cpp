@@ -12,17 +12,7 @@
 using namespace std;
 
 //Firma de la función:
-int encontrarMayor(int x, int y)
-{
-    int mayor;
-
-    if (x > y)
-        mayor = x;
-    else
-        mayor = y;
-
-    return mayor;
-}
+int encontrarMayor(int x, int y);
 
 int main()
 {
@@ -41,4 +31,15 @@ int main()
 }
 
 //Definición de la función:
-// *La funcion se puede defininir desde el inicio sin la firma
+int encontrarMayor(int x, int y)
+{
+    int mayor;
+
+    if (x > y)
+        mayor = x;
+    else
+        mayor = y;
+
+    return mayor;
+}
+// La funcion se puede defininir desde el inicio sin la firma
