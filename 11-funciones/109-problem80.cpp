@@ -28,10 +28,10 @@ int main()
     cout << "\nCaracteres" << endl;
     cout << dato10 << endl << dato11 << endl << dato12 << endl;
 
-    cout << "\nEl entero mas grande es: " << maximo(dato1,dato2,dato3) << endl;
-    cout << "El flotante mas grande es: " << maximo(dato4,dato5,dato6) << endl;
-    cout << "El double mas grande es: " << maximo(dato7,dato8,dato9) << endl;
-    cout << "El caracter maximo es: " << maximo(dato10,dato11,dato12) << endl;
+    cout << "\nEl entero mas grande es: " << maximo(dato1, dato2, dato3) << endl;
+    cout << "El flotante mas grande es: " << maximo(dato4, dato5, dato6) << endl;
+    cout << "El double mas grande es: " << maximo(dato7, dato8, dato9) << endl;
+    cout << "El caracter maximo es: " << maximo(dato10, dato11, dato12) << endl;
 
     cout << endl; system("pause");
     return 0;
