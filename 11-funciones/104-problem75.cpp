@@ -8,7 +8,7 @@ using namespace std;
 void pedirDatos();
 void mult(float n1, float n2);
 
-float numero1, numero2;
+float numero1, numero2; //variables globales
 
 int main()
 {
