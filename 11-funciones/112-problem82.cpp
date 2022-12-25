@@ -2,7 +2,7 @@
   entero y seis paramétros de referencia en número entero nombrados cien, cincuenta, 
   veinte, diez, cinco y uno, respectivamente. La funcion tiene que considerar 
   el valor entero transmitido como una cantidad en dólares y convertir el valor 
-  en el número menor de billestes equivalentes.
+  en el número menor de billestes equivalentes. 
 */
 
 #include <iostream>
