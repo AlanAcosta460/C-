@@ -1,6 +1,6 @@
 /*78. Escriba un programa que devuelva la parte fraccionaria de cualquier 
   número introducido por el usuario. Por ejemplo, si se introduce el número 
-  256.879, debería desplegarse el número 0.879
+  256.879, debería desplegarse el número 0.879 
 */
 
 #include <iostream>
