@@ -36,7 +36,7 @@ void pedirDatos()
         cout << "Dia: "; cin >> f1.dia;
         if (f1.dia < 1 || f1.dia > 31)
         {
-            cout << "Ingrese un dia valido" << endl;
+            cout << "Ingrese un dia valido" << endl << endl;
             flag = 1;
         }
     } while (flag == 1);
@@ -47,7 +47,7 @@ void pedirDatos()
         cout << "Mes: "; cin >> f1.mes;
         if (f1.mes < 1 || f1.mes > 12)
         {
-            cout << "Ingrese un mes valido" << endl;
+            cout << "Ingrese un mes valido" << endl << endl;
             flag = 1;
         }
     } while (flag == 1);
@@ -58,7 +58,7 @@ void pedirDatos()
         cout << "Anio: "; cin >> f1.anio;
         if (f1.anio < 1 || f1.anio > 2023)
         {
-            cout << "Ingrese un anio valido" << endl;
+            cout << "Ingrese un anio valido" << endl << endl;
             flag = 1;
         }
     } while (flag == 1);
@@ -70,7 +70,7 @@ void pedirDatos()
         cout << "Dia: "; cin >> f2.dia;
         if (f2.dia < 1 || f2.dia > 31)
         {
-            cout << "Ingrese un dia valido" << endl;
+            cout << "Ingrese un dia valido" << endl << endl;
             flag = 1;
         }
     } while (flag == 1);
@@ -81,7 +81,7 @@ void pedirDatos()
         cout << "Mes: "; cin >> f2.mes;
         if (f2.mes < 1 || f2.mes > 12)
         {
-            cout << "Ingrese un mes valido" << endl;
+            cout << "Ingrese un mes valido" << endl << endl;
             flag = 1;
         }
     } while (flag == 1);
@@ -92,7 +92,7 @@ void pedirDatos()
         cout << "Anio: "; cin >> f2.anio;
         if (f2.anio < 1 || f2.anio > 2023)
         {
-            cout << "Ingrese un anio valido" << endl;
+            cout << "Ingrese un anio valido" << endl << endl;
             flag = 1;
         }
     } while (flag == 1);
