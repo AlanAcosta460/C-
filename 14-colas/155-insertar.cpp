@@ -50,4 +50,4 @@ void insertarCola(Nodo *&frente, Nodo *&fin, int n)
 bool colaVacia(Nodo *frente)
 {
     return (frente == NULL)? true : false;
-}
+} 
