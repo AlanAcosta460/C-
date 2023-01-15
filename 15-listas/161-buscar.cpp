@@ -1,4 +1,4 @@
-/*Pasos para mostrar un elemento de una lista: 
+/*Pasos para buscar un elemento en la lista: 
 1. Crear un nuevo nodo (actual).
 2. Igualar ese nuevo nodo (actual) a lista. 
 3. Recorrer la lista.
