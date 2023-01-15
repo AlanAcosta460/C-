@@ -161,7 +161,7 @@ void eliminarNodo(Nodo *&lista, int n)
     else
         cout << "\nLista Vacia" << endl;
 }
-void vaciarLista(Nodo *&lista, int &n)
+void vaciarLista(Nodo *&lista, int &n) //No es necesario enviarle ningun dato si no se quiere imprimir en main
 {
     while (lista != NULL)
     {
