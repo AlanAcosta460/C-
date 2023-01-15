@@ -1,10 +1,3 @@
-/*Pasos para mostrar elementos de un árbol: 
-1. Comprobar si el árbol esta vacio.
-2. 
-3. Comrpobar si el árbol esta vacio
-4. Insertar nodo.
-*/
-
 #include <iostream>
 using namespace std;
 
