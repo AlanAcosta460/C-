@@ -20,7 +20,7 @@ int main()
 {
     Nodo *lista = NULL;
     int dato;
-
+ 
     for (int i = 0; i < 3; i ++)
     {    
         cout << "Ingrese un numero: "; cin >> dato;
