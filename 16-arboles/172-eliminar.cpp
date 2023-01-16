@@ -1,9 +1,3 @@
-/*Pasos para recorrer en Post Orden un Árbol:
-1. Atravezar el sub-árbol izquierdo.
-2. Atravezar el sub-árbol derecho.
-3. Visitar la raiz
-*/
-
 #include <iostream>
 using namespace std;
 
