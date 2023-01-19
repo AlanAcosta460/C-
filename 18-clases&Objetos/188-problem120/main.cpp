@@ -28,7 +28,7 @@ int main()
     cout << "\n.:Fecha de hoy:." << endl;
     hoy->visualizar();
     cout << "\n.:Fecha de su cumpleanios:." << endl;
-    cumple->visualizar();
+    cumple->visualizar(); 
 
     if(hoy->igual(*cumple))
         cout << "\nFeliz Cumpleanios!!!" << endl;
